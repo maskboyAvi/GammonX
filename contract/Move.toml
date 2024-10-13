@@ -1,14 +1,15 @@
 [package]
-name = 'backgammon'
-version = '1.0.0'
+name = "send_message"
+version = "1.0.0"
+authors = []
 
 [addresses]
-backgammon = "_"
-
+MyModule = '0x97d3d22af79093903f64355529a4ead7a24e6bbb75b2db103dd0f908ba782768'
 [dev-addresses]
-backgammon= "0x35bcaf14a08f75b726ff25dbad2063286a4b3ff191753b0f1d57913b2038a687"
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
-rev = "mainnet"
+rev = "testnet"
 subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
